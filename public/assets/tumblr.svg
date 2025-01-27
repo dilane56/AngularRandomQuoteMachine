@@ -1,0 +1,8 @@
+<svg class="svg-snoweb svg-theme-light" height="20" ,width="30" preserveaspectratio="xMidYMid meet" viewbox="0 0 100 100" width="100" x="0" xmlns="http://www.w3.org/2000/svg" y="0">
+
+
+  <g transform="translate(20.00, 20.00) scale(0.60, 0.60)">
+    <path class="svg-fill-primary" d="M61.61,100c-15,0-26.25-7.74-26.25-26.25V44.11H21.69v-16C36.73,24.15,43,11.21,43.75,0H59.36V25.45H77.58V44.11H59.36V69.92c0,7.74,3.91,10.41,10.13,10.41h8.82V100Z">
+    </path>
+  </g>
+</svg>

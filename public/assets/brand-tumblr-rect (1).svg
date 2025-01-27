@@ -1,0 +1,63 @@
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     class="svg-snoweb svg-theme-light"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     viewBox="0 0 100 100"
+     preserveAspectRatio="xMidYMid meet"
+>
+<defs>
+    <style>
+
+
+
+
+
+
+        .svg-fill-primary {
+            fill: #ffffff;
+        }
+
+
+    </style>
+</defs>
+
+
+<clipPath id="clip-path-202501-2712-3633-6dbd0baa-d420-452c-a318-1a49857d644e">
+
+</clipPath>
+
+<g clip-path="url(#clip-path-202501-2712-3633-6dbd0baa-d420-452c-a318-1a49857d644e)">
+
+
+    <rect
+            class="svg-fill-tertiary"
+            x="0"
+            y="0"
+            width="30"
+            height="20"
+            rx="15"
+            ry="15"
+    >
+    </rect>
+
+    <g transform="translate(-22.50, -22.50) scale(1.45, 1.45)">
+        <circle
+                class="svg-fill-secondary svg-builder-circle"
+                cx="50"
+                cy="50"
+                r="50">
+        </circle>
+    </g>
+</g>
+
+    <g transform="translate(20.00, 20.00) scale(0.60, 0.60)">
+
+    <path class="svg-fill-primary"
+      d="M61.61,100c-15,0-26.25-7.74-26.25-26.25V44.11H21.69v-16C36.73,24.15,43,11.21,43.75,0H59.36V25.45H77.58V44.11H59.36V69.92c0,7.74,3.91,10.41,10.13,10.41h8.82V100Z">
+</path>
+
+    </g>
+</svg>

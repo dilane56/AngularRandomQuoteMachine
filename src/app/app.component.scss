@@ -1,0 +1,32 @@
+.AppContent {
+
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+
+  animation: gradient-animation 5s ease infinite;
+
+  /* 10s pour la durée de l'animation */
+
+
+
+/*
+
+  @keyframes gradient-animation {
+    0% {
+      opacity: 0% 50%;
+    }
+
+    50% {
+      opacity: 100% 50%;
+    }
+
+    100% {
+      opacity: 0% 50%;
+    }
+  }*/
+}

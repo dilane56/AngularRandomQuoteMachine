@@ -1,0 +1,18 @@
+<section class="wrapper">
+  <div id="quote-box">
+    <p id="text" [ngStyle]="{'color': textColor}"><span>"</span>{{ quote.quote }}</p>
+    <p id="author" [ngStyle]="{'color': textColor}">{{ quote.author }}</p>
+    <div class="quote-box__button">
+      <div class="quote-box__sociallink">
+
+        <a id="tweet-quote" [href]="getTweetLink()" target="_top" [ngStyle]="{'backgroundColor': textColor}"><img src="/assets/twitter.svg"  alt="twitter-logo"/></a>
+        <a id="tumblr-quote" [href]="getTumblrLink()" target="_blank" [ngStyle]="{'backgroundColor': textColor}"><img src="/assets/brand-tumblr-rect%20(1).svg"></a>
+      </div>
+      <button id="new-quote" (click)="changeQuote()" [ngStyle]="{'backgroundColor': textColor, 'color': 'white'}">New quote</button>
+    </div>
+  </div>
+  <div class="footer" [ngStyle]="{'color': textColor}">
+    <p>by <a href="#">Kfr</a></p>
+  </div>
+</section>
+

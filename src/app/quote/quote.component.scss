@@ -1,0 +1,88 @@
+.wrapper{
+  width: 450px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+
+
+
+
+  #quote-box{
+    max-width: 85%;
+    max-height: 85%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+
+    p span{
+      font-size:3rem;
+      display: inline-block;
+      position: relative;
+      top: 12px;
+      height: 20px;
+    }
+
+    #text{
+      height: auto;
+      margin-top: 0;
+      text-align: center;
+      font-size: 1.5em;
+
+    }
+    #author{
+      height: 15%;
+      margin-top: 0;
+      text-align: right;
+    }
+    .quote-box__button{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 20%;
+      margin-bottom: 20px;
+
+
+      .quote-box__sociallink{
+
+        display: flex;
+        gap: 15px;
+      }
+      .quote-box__sociallink a{
+
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 35px;
+        width: 35px;
+      }
+      button{
+        color: white;
+        border: none;
+      }
+
+    }
+  }
+
+  .footer{
+
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0;
+
+    a{
+      text-decoration: underline;
+      text-align: center;
+      color: black;
+    }
+  }
+
+}
